@@ -1,0 +1,22 @@
+version: '1.0'
+
+########################################################################################################################
+bot: 
+   token: ODY1NTEzNzc1NDY1NjI3NjQ5.YPFGhA.KBUikurzJjCRmm_Cf3RghPcSQ3M
+   prefix: '-'
+   status: ONLINE
+   guild-id: '758946241312194620'
+   catogery-id: '758946241312194625'
+
+storage: 
+   host: localhost
+   port: '3306'
+   username: root
+   password: ""
+   databasename: botticket
+   ssl: false
+
+settings: 
+   no-of-tickets-a-user-can-open: '2'
+   staff-roles: 
+   - Family
